@@ -1,0 +1,66 @@
+:root {
+    --animate-delay: 2s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*navbar*/
+/*end nav*/
+
+/*jumbotron*/
+.jumbotron {
+    padding: 3rem;
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.lead {
+    line-height: 19px;
+}
+
+.lead span {
+    font-size: 15px;
+}
+/*end Jumbotron*/
+
+/*tabel*/
+.main-tabless {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+}
+
+/*note*/
+.note-countainer {
+   display: flex;
+   justify-content: flex-end;
+   padding: 2.5rem;
+   font-size: 14px;
+   background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+}
+
+/*footer*/
+.card {
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+}
+
+.card-header {
+    background: black;
+}

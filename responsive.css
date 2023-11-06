@@ -1,0 +1,32 @@
+@media screen and (max-width: 1050px) {
+
+    .jumbotron {
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+
+    .main-tabless {
+        gap: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 825px) {
+   .main-tabless {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: fit-content;
+   }
+
+   .note-countainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+}
+
+@media screen and (max-width: 640px) {
+}
